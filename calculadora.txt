@@ -1,0 +1,28 @@
+using System;
+namespace CalculadoraSimple
+{
+	public class Calculadora
+	{
+		public Calculadora ()
+		{
+		}
+
+		public int sumarDosNumeros(int sumandoA, int sumandoB){
+			return sumandoA + sumandoB;
+		}
+
+		public int restarDosNumeros(int minuendo, int sustraendo){
+			return minuendo - sustraendo;
+		}
+
+		public int multiplicacionDosNumeros(int factorA, int factorB){
+			return factorA * factorB;
+		}
+
+		public int divisionDosNumeros(int dividendo, int divisor){
+			return dividendo / divisor;
+		}
+
+
+	}
+}
